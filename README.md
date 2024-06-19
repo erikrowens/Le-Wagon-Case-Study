@@ -3,6 +3,19 @@ Case study for Le Wagon DS bootcamp.
 
 
 # Notes
+## Data
+The data is essentially JUNK...haha.
+There are a lot of columns, 43 in total and many of them have a lot of NA values
+(see Preprocessing for details). I dropped the columns that have more than 50%
+of their values as NA.
+
+A number of columns are heavily correlated. Anything with a correlation > .8
+was dropped.
+
+Further, many numerical columns are highly distributed and have a large
+number of outliers.
+
+
 ## Preprocessing
 I test with and without drop_duplicates() and dropna() prior to starting the
 pipeline. Both times, I got the same prediction resuts: 0.074
