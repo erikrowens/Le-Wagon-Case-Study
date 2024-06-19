@@ -1,6 +1,7 @@
 # My specific ingores
 *.csv
 .envrc
+test_workflow/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

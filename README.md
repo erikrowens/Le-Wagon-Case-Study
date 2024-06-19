@@ -1,2 +1,15 @@
 # Le-Wagon-Case-Study
 Case study for Le Wagon DS bootcamp.
+
+
+# Notes
+## Preprocessing
+I test with and without drop_duplicates() and dropna() prior to starting the
+pipeline. Both times, I got the same prediction resuts: 0.074
+Note that this is without any special feature selection and only basic
+preprocessing in the pipeline (scaling & encoding).
+
+However, doing these two drops, cut the number of rows from 89,976 rows (afer
+removing the entries with 'default' == NA since this is what we want to predict)
+to 9,111 rows. The original dataset has 99,976 rows. All of the rows that
+are removed are in the dropna() portion, there don't seem to be any duplicates.
