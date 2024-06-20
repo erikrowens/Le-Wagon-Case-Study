@@ -4,21 +4,14 @@ Case study for Le Wagon DS bootcamp.
 
 # Notes
 ## Data
-
-TARGETS (default) ARE NOT BALANCED (SMOTE? stratify the train/test split)
-
-DISTRIBUTIONS OF MANY COLS ARE NOT NORMAL
-
-
-The data is essentially JUNK...haha.
-There are a lot of columns, 43 in total and many of them have a lot of NA values
-(see Preprocessing for details). I dropped the columns that have more than 50%
+* The data is essentially JUNK...haha.
+* Targets are not balanced
+* There are a lot of columns, 43 in total and many of them have a lot of NA values
+(see Preprocessing for details). I dropped the columns that have more than 30%
 of their values as NA.
-
-A number of columns are heavily correlated. Anything with a correlation > .8
+* A number of columns are heavily correlated. Anything with a correlation > .8
 was dropped.
-
-Further, many numerical columns are highly distributed and have a large
+* urther, many numerical columns are highly distributed and have a large
 number of outliers.
 
 
