@@ -4,6 +4,12 @@ Case study for Le Wagon DS bootcamp.
 
 # Notes
 ## Data
+
+TARGETS (default) ARE NOT BALANCED (SMOTE? stratify the train/test split)
+
+DISTRIBUTIONS OF MANY COLS ARE NOT NORMAL
+
+
 The data is essentially JUNK...haha.
 There are a lot of columns, 43 in total and many of them have a lot of NA values
 (see Preprocessing for details). I dropped the columns that have more than 50%
