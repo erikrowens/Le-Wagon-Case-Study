@@ -3,6 +3,9 @@ Case study for Le Wagon DS bootcamp.
 
 
 # Notes
+My submission for Le Wagon technical case study. Still need to fine tune the
+model.
+
 ## Data
 * The data is essentially JUNK...haha.
 * Targets are not balanced
@@ -17,9 +20,9 @@ number of outliers.
 
 ## Preprocessing
 I test with and without drop_duplicates() and dropna() prior to starting the
-pipeline. Both times, I got the same prediction resuts: 0.074
-Note that this is without any special feature selection and only basic
-preprocessing in the pipeline (scaling & encoding).
+pipeline. Both times, I got the same prediction resuts. Note that this is
+without any special feature selection and only basic preprocessing in the
+pipeline (scaling & encoding).
 
 However, doing these two drops, cut the number of rows from 89,976 rows (afer
 removing the entries with 'default' == NA since this is what we want to predict)
