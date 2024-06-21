@@ -7,7 +7,7 @@ My submission for Le Wagon technical case study. Still need to fine tune the
 model.
 
 ## Data
-* The data is essentially JUNK...haha.
+* The data is rather 'messy' with lots of NA...haha.
 * Targets are not balanced
 * There are a lot of columns, 43 in total and many of them have a lot of NA values
 (see Preprocessing for details). I dropped the columns that have more than 30%
